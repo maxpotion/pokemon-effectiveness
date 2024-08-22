@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>Pokemon Type Effectiveness</title>
+  </head>
+  
+  <body>
+    <h3>Choose your Pokemon type:</h3>
+    <div class="typeButtons1">
+      <button id="bugButton" onclick="bugDmg()">BUG</button>
+      <button id="darkButton" onclick="darkDmg()">DARK</button>
+      <button id="dragonButton" onclick="dragonDmg()">DRAGON</button>
+      <button id="electricButton" onclick="electricDmg()">ELECTRIC</button>
+      <button id="fairyButton" onclick="fairyDmg()">FAIRY</button>
+      <button id="fightingButton" onclick="fightingDmg()">FIGHTING</button>
+    </div>
+    <div class="typeButtons2">
+      <button id="fireButton" onclick="fireDmg()">FIRE</button>
+      <button id="flyingButton" onclick="flyingDmg()">FLYING</button>
+      <button id="ghostButton" onclick="ghostDmg()">GHOST</button>
+      <button id="grassButton" onclick="grassDmg()">GRASS</button>
+      <button id="groundButton" onclick="groundDmg()">GROUND</button>
+      <button id="iceButton" onclick="iceDmg()">ICE</button>
+    </div>
+    <div class="typeButtons3">
+      <button id="normalButton" onclick="normalDmg()">NORMAL</button>
+      <button id="poisonButton" onclick="poisonDmg()">POISON</button>
+      <button id="psychicButton" onclick="psychicDmg()">PSYCHIC</button>
+      <button id="rockButton" onclick="rockDmg()">ROCK</button>
+      <button id="steelButton" onclick="steelDmg()">STEEL</button>
+      <button id="waterButton" onclick="waterDmg()">WATER</button>
+    </div>
+    <div id="userChoice">
+      <span id="chosenType"></span>
+    </div>
+    <div class="effectsBox">
+    <div class="superBox">
+      <p>Super effective against:</p>
+      <div id="superEffective"></div>
+    </div>
+    <div class="notBox">
+      <p>Not very effective against:</p>
+      <div id="notVeryEffective"></div>
+    </div>
+    <div class="noEffectBox">
+      <p>Has no effect against:</p>
+      <div id="noEffect"></div>
+    </div>
+    </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

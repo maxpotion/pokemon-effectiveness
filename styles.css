@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #544c67;
+    color: #eeebf9;
+  }
+  p {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  button {
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 6px;
+    border-style: solid;
+    width: 100%;
+  }
+  
+  #normalButton {
+    background-color: #e7e3d9; 
+    border-color: #796049;
+    color: #796049;
+  }
+  #fireButton {
+    background-color: #ff2600;
+    border-color: #ffb752;
+    color: #ffb752;
+  }
+  #waterButton {
+    background-color: #349df9;
+    border-color: #1616ca;
+    color: #1616ca;
+  }
+  #grassButton {
+    background-color: #1fd68d;
+    border-color: #006666;
+    color: #006666;
+  }
+  #electricButton {
+    background-color: #ffff66;
+    border-color: #ffad5c;
+    color: #ffad5c;
+  }
+  #iceButton {
+    background-color: #ccffff;
+    border-color: #8080ff;
+    color: #8080ff;
+  }
+  #groundButton {
+    background-color: #926a45;
+    border-color: #573f29;
+    color: #573f29;
+  }
+  #rockButton {
+    background-color: #79825e;
+    border-color: #474e31;
+    color: #474e31;
+  }
+  #steelButton {
+    background-color: #d1d1d1;
+    border-color: #667085;
+    color: #667085;
+  }
+  #fairyButton {
+    background-color: #e8bbd1;
+    border-color: #c26199;
+    color: #c26199;
+  }
+  #psychicButton {
+    background-color: #ff85fb;
+    border-color: #92329f;
+    color: #92329f;
+  }
+  #darkButton {
+    color: #cf3a3a;
+    border-color: #cf3a3a;
+    background-color: #363636;
+  }
+  #dragonButton {
+    background-color: #eaa52e;
+    border-color: #faf3d1;
+    color: #faf3d1;
+  }
+  #fightingButton {
+    background-color: #d25019;
+    border-color: #f7debb;
+    color: #f7debb;
+  }
+  #ghostButton {
+    background-color: #aea0cf;
+    border-color: #564d99;
+    color: #564d99;
+  }
+  #poisonButton {
+    background-color: #ca23cd;
+    border-color: #c8dd8d;
+    color: #c8dd8d;
+  }
+  #bugButton {
+    background-color: #a9e236;
+    border-color: #2f5813;
+    color: #2f5813;
+  }
+  #flyingButton {
+    background-color: #c7c7ff;
+    border-color: #4c36ba;
+    color: #4c36ba;
+  }
+  
+  .typeButtons1 {
+    display: flex;
+  }
+  .typeButtons2 {
+    display: flex;
+  }
+  .typeButtons3 {
+    display: flex;
+  }
+  #userChoice {
+    font-size: 35px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 15px;
+    display: flex;
+  }
+  
+  .superBox {
+    display: flex;
+    align-items: center;
+  }
+  .notBox {
+    display: flex;
+    align-items: center;
+  }
+  .noEffectBox {
+    display: flex;
+    align-items: center;
+  }
+  
+  #superEffective {
+    margin: 10px;
+  }
+  #notVeryEffective {
+    margin: 10px;
+  }
+  #noEffect {
+    margin: 10px;
+  }
+  
